@@ -1,0 +1,18 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "fetch data from jsonplaceholder ",
+  "main": "api.js",
+  "scripts": {
+    "develop": "nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "yargs": "^16.2.0"
+  }
+}
